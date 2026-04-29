@@ -45,7 +45,6 @@ try {
 }
 
 admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
   databaseURL: FB_DB_URL
 });
 

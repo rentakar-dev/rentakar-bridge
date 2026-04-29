@@ -1,0 +1,21 @@
+{
+  "name": "rentakar-mqtt-bridge",
+  "version": "1.0.0",
+  "description": "MQTT to Firebase bridge untuk RentaKar GPS IoT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "mqtt": "^5.3.4",
+    "firebase-admin": "^12.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
